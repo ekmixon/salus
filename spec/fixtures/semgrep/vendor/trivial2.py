@@ -7,7 +7,4 @@ class User:
 
 def route(user_id):
     user = User(1)
-    if user.id == user.id:
-        return '200'
-    else:
-        return '404'
+    return '200' if user.id == user.id else '404'
