@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.2'
 
-gem 'activesupport', '~> 6.1.3'
+gem 'activesupport', '~> 6.1.7', '>= 6.1.7.3'
 gem 'bugsnag', '~> 6.19.0'
 gem 'bundler', '= 2.2.19'
 gem 'faraday', '~> 1.3'
@@ -28,7 +28,7 @@ group :test do
   gem 'rspec_junit_formatter'
   gem 'rubocop', '~> 0.93', require: false
   gem 'simplecov', '~> 0.21.2'
-  gem 'webmock', '~> 3.12'
+  gem 'webmock', '~> 3.12', '>= 3.12.2'
 end
 
-gem "json-schema", "~> 2.8"
+gem "json-schema", "~> 2.8", ">= 2.8.1"
